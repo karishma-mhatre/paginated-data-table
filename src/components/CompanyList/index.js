@@ -19,7 +19,7 @@ function CompanyList({ companyList, currentPageNumber, totalCompanies, pageSize,
       </tr>
       {
         companyList.map(item => {
-          return <tr>
+          return <tr key={item._id}>
             <td>{item._id}</td>
             <td>{item.name}</td>
             <td>{item.type}</td>
