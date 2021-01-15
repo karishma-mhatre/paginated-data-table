@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware } from 'redux'
