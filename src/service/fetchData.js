@@ -1,7 +1,7 @@
 import data from '../mock-data/companyDataList';
 let currentResult = data;
 
-//Assuming Back end API is paginated
+//Backend fetch data API mock
 export function fetchData(pageNumber, pageSize) {
   return new Promise((resolve, reject) => {
     let startIndex = (pageNumber - 1) * pageSize;
@@ -13,6 +13,7 @@ export function fetchData(pageNumber, pageSize) {
   });
 }
 
+//Backend search data API mock
 export function searchData(searchString, pageSize) {
   return new Promise((resolve, reject) => {
     if (!searchString) {
