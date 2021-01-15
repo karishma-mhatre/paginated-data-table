@@ -1,0 +1,20 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  text-transform:capitalize
+}
+
+tr {
+  border-bottom: 1px solid #a5a5a5;
+}
+
+tr:first-of-type {
+  border-top: 1px solid #a5a5a5;
+}

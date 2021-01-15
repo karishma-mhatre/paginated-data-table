@@ -1,0 +1,17 @@
+.paginator {
+  display: flex;
+    justify-content: center;
+}
+
+button {
+  padding: 5px 9px;
+  background: white;
+  border: 1px solid purple;
+  margin: 0px 3px;
+  border-radius: 3px;
+}
+
+.active-page {
+  background-color: purple;
+  color: white;
+}
